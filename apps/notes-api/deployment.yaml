@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/jatin-not-found/notes-application:917d1c88994ff4001f2b215bcc1b413407256339
+        image: ghcr.io/jatin-not-found/notes-application:0aa04606fa00a846d1992abdba662f072f2130fb
         ports:
         - containerPort: 8080
         readinessProbe:
