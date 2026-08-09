@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/jatin-not-found/notes-application:null
+        image: ghcr.io/jatin-not-found/notes-application:${{ github.sha }}
         ports:
         - containerPort: 8080
         readinessProbe:
